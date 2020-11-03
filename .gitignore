@@ -3,7 +3,9 @@
 /venv/
 
 
-# py3 venv
+# venv e virtualenv
 bin/
 lib/
 pyvenv.cfg
+include/
+pip-selfcheck.json
