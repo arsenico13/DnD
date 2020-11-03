@@ -1,0 +1,8 @@
+beautifulsoup4==4.8.0
+dndice==2.1.4
+dpath==1.4.2
+jsonpointer==2.0
+lxml==4.4.1
+nose2==0.9.1
+six==1.12.0
+soupsieve==1.9.3
