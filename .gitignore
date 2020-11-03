@@ -1,3 +1,9 @@
 *.pyc
 .idea/
 /venv/
+
+
+# py3 venv
+bin/
+lib/
+pyvenv.cfg
