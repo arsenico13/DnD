@@ -4,20 +4,20 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 
-import abilities
-import attacks
-import conditions
-import dice
-import equipment
-import features
-import hp
-import inventory
-import lib.classes as c
-import lib.components as gui
-import lib.helpers as h
-import lib.interface as iface
-import resources
-import spells
+from . import abilities
+from . import attacks
+from . import conditions
+from . import dice
+from . import equipment
+from . import features
+from . import hp
+from . import inventory
+from .lib import classes as c
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import interface as iface
+from . import resources
+from . import spells
 
 
 class Main:

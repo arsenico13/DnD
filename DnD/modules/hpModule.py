@@ -3,9 +3,9 @@ from typing import Union, Callable, List
 
 import dndice as d
 
-import lib.components as gui
-import lib.hpLib as hp
-import lib.resourceLib as res
+from .lib import components as gui
+from .lib import hpLib as hp
+from .lib import resourceLib as res
 import resourceModule as resMod
 
 

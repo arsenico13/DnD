@@ -3,9 +3,9 @@
 import os
 import tkinter as tk
 
-import lib.classes as c
-import lib.components as gui
-import lib.interface as iface
+from .lib import classes as c
+from .lib import components as gui
+from .lib import interface as iface
 
 
 class HitDiceDisplay(gui.ResourceDisplay):

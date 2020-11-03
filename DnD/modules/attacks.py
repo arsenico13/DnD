@@ -4,10 +4,10 @@ import tkinter as tk
 
 import dndice as d
 
-import lib.classes as c
-import lib.components as gui
-import lib.helpers as h
-import lib.interface as iface
+from .lib import classes as c
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import interface as iface
 
 
 class Definer:

@@ -1,10 +1,10 @@
 import tkinter as tk
 from typing import Union
 
-import lib.characterLib as char
-import lib.components as gui
-import lib.helpers as h
-import lib.inventoryLib as inv
+from .lib import characterLib as char
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import inventoryLib as inv
 
 
 class ItemDisplay(gui.Section):
