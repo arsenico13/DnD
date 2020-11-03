@@ -72,7 +72,7 @@ class Main:
 if __name__ == '__main__':
     from os.path import realpath, abspath, dirname
     from pathlib import Path
-    from .modules.lib.interface import JsonInterface
+    from modules.lib.interface import JsonInterface
 
     here = Path(dirname(abspath(realpath(__file__))))
     JsonInterface.OBJECTSPATH = here / 'objects'
