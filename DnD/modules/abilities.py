@@ -3,10 +3,10 @@
 import os
 import tkinter as tk
 
-import lib.components as gui
-import lib.helpers as h
-import lib.interface as iface
-from lib.classes import Character
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import interface as iface
+from .lib.classes import Character
 
 
 class AbilityDisplay(gui.Section):

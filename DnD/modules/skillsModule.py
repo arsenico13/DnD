@@ -2,10 +2,10 @@ import tkinter as tk
 from collections import OrderedDict
 from functools import partial
 
-import lib.abilitiesLib as abil
-import lib.characterLib as char
-import lib.components as gui
-import lib.interface as iface
+from .lib import abilitiesLib as abil
+from .lib import characterLib as char
+from .lib import components as gui
+from .lib import interface as iface
 
 
 class OwnedSkillsDisplay(gui.Section):

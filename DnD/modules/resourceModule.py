@@ -1,9 +1,9 @@
 import tkinter as tk
 from typing import Union
 
-import lib.components as gui
-import lib.resourceLib as res
-import lib.settingsLib as settings
+from .lib import components as gui
+from .lib import resourceLib as res
+from .lib import settingsLib as settings
 
 
 class ResourceDisplay(gui.Section):

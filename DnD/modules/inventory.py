@@ -5,10 +5,10 @@ import os
 import sys
 import tkinter as tk
 
-import lib.classes as c
-import lib.components as gui
-import lib.helpers as h
-from lib.interface import JsonInterface
+from .lib import classes as c
+from .lib import components as gui
+from .lib import helpers as h
+from .lib.interface import JsonInterface
 
 
 class ItemDisplay(gui.Section):

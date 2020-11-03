@@ -4,7 +4,7 @@ import tkinter as tk
 
 import dndice as d
 
-import lib.components as gui
+from .lib import components as gui
 
 
 class DiceRoll(gui.Section):

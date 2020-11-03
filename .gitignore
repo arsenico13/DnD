@@ -1,3 +1,11 @@
 *.pyc
 .idea/
 /venv/
+
+
+# venv e virtualenv
+bin/
+lib/
+pyvenv.cfg
+include/
+pip-selfcheck.json

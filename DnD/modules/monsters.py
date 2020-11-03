@@ -7,10 +7,10 @@ from tkinter import messagebox
 
 import dndice as d
 
-import lib.components as gui
-import lib.helpers as h
-import lib.interface as iface
-from dice import DiceRoll
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import interface as iface
+from .dice import DiceRoll
 
 
 def all_children(frame):

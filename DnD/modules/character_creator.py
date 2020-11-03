@@ -11,11 +11,14 @@ from collections import OrderedDict
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                 '/../libraries'))
 
-import lib.components as gui
-import lib.interface as iface
-import lib.helpers as h
-import lib.classmap as cm
-from levelup import FeaturesAtLevel
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                '..'))
+
+from .lib import components as gui
+from .lib import interface as iface
+from .lib import helpers as h
+from .lib import classmap as cm
+from .levelup import FeaturesAtLevel
 
 
 class BasicInfoSelector(gui.Section):

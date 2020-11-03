@@ -4,11 +4,11 @@ import os
 import tkinter as tk
 from math import sqrt
 
-import dice
-import lib.classes as c
-import lib.components as gui
-import lib.helpers as h
-import lib.interface as iface
+from . import dice
+from .lib import classes as c
+from .lib import components as gui
+from .lib import helpers as h
+from .lib import interface as iface
 
 longDescription = """{name}
 {lvschool}
