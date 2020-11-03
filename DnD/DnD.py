@@ -3,12 +3,12 @@
 import tkinter as tk
 
 from .modules import character_creator as cc
-from .modules import character_manager as cm
-from .modules import dice as dc
-from .modules import item_creator as ic
-from .modules import levelup as lu
-from .modules import monsters as mm
-from .modules.lib import components as gui
+from modules import character_manager as cm
+from modules import dice as dc
+from modules import item_creator as ic
+from modules import levelup as lu
+from modules import monsters as mm
+from modules.lib import components as gui
 
 
 class Main:
